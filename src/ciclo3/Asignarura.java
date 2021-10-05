@@ -10,8 +10,17 @@ package ciclo3;
  * @author RAF
  */
 public class Asignarura {
+    
     private int codigo;
     private String nomrbe;
+
+    public Asignarura(int codigo, String nomrbe) {
+        this.codigo = codigo;
+        this.nomrbe = nomrbe;
+    }
+    
+    
+    
 
     public int getCodigo() {
         return codigo;
